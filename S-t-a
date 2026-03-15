@@ -30,7 +30,7 @@ local function createESP()
         highlight.Parent = obj
     end
     
-    -- Подсветка игроков
+    -- Подсетка игроков
     for _, plr in ipairs(game.Players:GetPlayers()) do
         if plr ~= player and plr.Character then
             addESP(plr.Character, Color3.new(1, 0, 0))
